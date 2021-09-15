@@ -1,0 +1,21 @@
+{
+  "name": "speechrecognition",
+  "version": "1.0.0",
+  "description": "",
+  "main": "game.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "material-design-lite": "^1.3.0",
+    "materialize-css": "^1.0.0-rc.2",
+    "phaser": "^3.24.1"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-terser": "^1.4.1"
+  }
+}

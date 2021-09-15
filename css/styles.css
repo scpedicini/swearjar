@@ -1,0 +1,123 @@
+body {
+    background-color: #151414;
+}
+
+
+/*h1 {*/
+/*    font-family: 'Roboto', sans-serif;*/
+/*    font-size: 4em;*/
+/*    color: white;*/
+/*}*/
+
+/*canvas  {*/
+/*    display: block !important;*/
+/*    margin: auto !important;*/
+/*    !*width: 100%;*!*/
+/*}*/
+
+#phaserblock, canvas
+{
+    display: block !important;
+    margin: auto !important;
+    /*width: 100%;*/
+}
+
+.mainheader
+{
+    font-size: 5em;
+    /*font-family: 'Roboto', sans-serif;*/
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: white;
+}
+
+span
+{
+    font-family: 'Merriweather', serif;
+
+    color: white;
+}
+
+
+blockquote {
+    /*max-width:390px;*/
+    color: #24dba2;
+    text-align: center;
+    /*border-left: 3px solid #897860;*/
+    padding-left: 5px;
+    margin:0 auto;
+    width:auto;
+    display:table;
+    padding-top: 2rem;
+
+}
+
+
+.swearoptions
+{
+    margin-top: 3em;
+    margin-left: 14em;
+    margin-bottom: 3em;
+    display: none;
+}
+
+
+
+img {
+    margin: 2em;
+    width:280px; /* you can use % */
+    height: auto;
+}
+
+
+.fade-in {
+    animation: fadeIn ease 1s;
+    -webkit-animation: fadeIn ease 1s;
+    -moz-animation: fadeIn ease 1s;
+    -o-animation: fadeIn ease 1s;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}
+
+@-moz-keyframes fadeIn {
+    0% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}
+
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}
+
+@-o-keyframes fadeIn {
+    0% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}
+
+@-ms-keyframes fadeIn {
+    0% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}

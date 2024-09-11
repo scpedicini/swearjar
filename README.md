@@ -8,3 +8,7 @@ A silly little program that uses browser-based speechRecognition to continually 
 *Note that unfortunately this program does not work on mobile devices of any kind due to recording limitations and security restrictions.*
 
 
+
+
+> ⚠️ This app doesn't work outside of strict Chrome due to the SpeechRecognition API being limited on most browsers - even Chromium forks such as Brave. It may be worth migrating to a clientside whisper fork.
+
